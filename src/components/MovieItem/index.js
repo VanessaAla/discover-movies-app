@@ -5,6 +5,7 @@ export default function MovieItem(props) {
     <div>
       <p>Movie title: {props.title}</p>
       <p>Year of release: {props.year}</p>
+      <img src={props.poster} alt="movie-poster"></img>
     </div>
   );
 }
